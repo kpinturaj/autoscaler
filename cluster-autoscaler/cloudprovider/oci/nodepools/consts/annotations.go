@@ -25,4 +25,7 @@ const (
 	// ToBeDeletedByClusterAutoscaler is the taint used to ensure that after a node has been called to be deleted
 	// no more pods will schedule onto it
 	ToBeDeletedByClusterAutoscaler = "ignore-taint.cluster-autoscaler.kubernetes.io/oke-impending-node-termination"
+
+	// OciNodePoolResourceIdent is the string identifier in the ocid that indicates the resource is a virtua; node pool
+	OciVirtualNodeResourceIdent = "virtualnode"
 )
